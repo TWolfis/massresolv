@@ -12,7 +12,7 @@ import (
 func main(){
 
 	if len(os.Args) != 2{
-		fmt.Println("Provide network/bits as input\n")
+		fmt.Println("Provide network/bits as input")
 		os.Exit(1)
 	}
 
